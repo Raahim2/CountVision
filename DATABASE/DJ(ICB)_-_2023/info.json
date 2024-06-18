@@ -1,0 +1,32 @@
+{
+    "class_info": {
+        "class_name": "DJ(ICB) - 2023",
+        "branch": "IOT",
+        "startdate": "2003",
+        "enddate": "2005",
+        "num_students": 3
+    },
+    "students": [
+        {
+            "full_name": "STC Mathew",
+            "email": "e@g.com",
+            "roll_number": "1",
+            "gender": "Male",
+            "photo": "STC.png"
+        },
+        {
+            "full_name": "MR Trump",
+            "email": "e@g.com",
+            "roll_number": "2",
+            "gender": "Male",
+            "photo": "MR.png"
+        },
+        {
+            "full_name": "Shantanu Bhor",
+            "email": "e@g.com",
+            "roll_number": "3",
+            "gender": "Male",
+            "photo": "Shantanu.png"
+        }
+    ]
+}
