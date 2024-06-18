@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="/static/JS/functions.js"></script>
+<style>
+    .bg-custom-purple {
+            background-color: #421983;
+        }
+</style>
+
+
+<body class="h-screen flex items-center justify-center bg-custom-purple">
+    <div class="text-center">
+        <h1 class="text-white text-6xl font-bold mb-4">Online Attendance system</h1>
+        <button onclick="redirect('/login')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+           Login
+        </button>
+        <button onclick="redirect('/signup')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+            Create a account
+        </button>
+    </div>
+</body>
+
+</html>
