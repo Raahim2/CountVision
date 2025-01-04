@@ -3,27 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="/static/JS/functions.js"></script>
-<style>
-    .bg-custom-purple {
+    <title>Smart Attendance System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-custom-purple {
             background-color: #421983;
         }
-</style>
+    </style>
+</head>
+<body class="bg-custom-purple text-white">
 
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center bg-custom-purple">
+        <h1 class="text-6xl font-bold mb-4">Smart Attendance System</h1>
+        <p class="text-lg max-w-2xl mb-6">
+            Revolutionizing attendance tracking with cutting-edge facial recognition technology. Effortless, accurate, and secure.
+        </p>
+        <div class="space-x-4">
+            <button onclick="redirect('/login')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+                Login
+            </button>
+            <button onclick="redirect('/signup')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+                Create an Account
+            </button>
+        </div>
+    </section>
 
-<body class="h-screen flex items-center justify-center bg-custom-purple">
-    <div class="text-center">
-        <h1 class="text-white text-6xl font-bold mb-4">Online Attendance system</h1>
-        <button onclick="redirect('/login')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
-           Login
-        </button>
-        <button onclick="redirect('/signup')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
-            Create a account
-        </button>
-    </div>
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-100 text-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/100" alt="Feature 1" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Facial Recognition</h3>
+                    <p>Fast and secure attendance using advanced facial recognition technology.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/100" alt="Feature 2" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Real-time Analytics</h3>
+                    <p>Track and analyze attendance data with real-time insights.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/100" alt="Feature 3" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Easy Integration</h3>
+                    <p>Seamlessly integrates with existing systems for smooth operation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white text-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic mb-4">"This system has simplified our attendance tracking process immensely!"</p>
+                    <h4 class="font-bold">- John Doe, HR Manager</h4>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic mb-4">"Accurate and reliable - exactly what we needed for our organization."</p>
+                    <h4 class="font-bold">- Jane Smith, CEO</h4>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <p class="text-gray-600 italic mb-4">"The facial recognition feature is a game-changer for us."</p>
+                    <h4 class="font-bold">- Mike Johnson, IT Specialist</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-gray-100 text-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <img src="https://via.placeholder.com/150" alt="Step 1" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Step 1</h3>
+                    <p>Sign up and create an account to get started.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150" alt="Step 2" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Step 2</h3>
+                    <p>Integrate the system with your organization’s platform.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/150" alt="Step 3" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold mb-2">Step 3</h3>
+                    <p>Start tracking attendance with ease and accuracy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 bg-custom-purple text-white text-center">
+        <h2 class="text-4xl font-bold mb-6">Get Started Today</h2>
+        <p class="text-lg max-w-3xl mx-auto mb-6">
+            Join the revolution in attendance tracking. Start your journey with Smart Attendance System now!
+        </p>
+        <div class="space-x-4">
+            <button onclick="redirect('/login')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+                Login
+            </button>
+            <button onclick="redirect('/signup')" class="bg-white text-custom-purple px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200">
+                Create an Account
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <p>&copy; 2025 Smart Attendance System. All rights reserved.</p>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="/login" class="hover:underline">Login</a></li>
+                <li><a href="/signup" class="hover:underline">Signup</a></li>
+                <li><a href="/user" class="hover:underline">Alpha Test</a></li>
+                <li><a href="#" class="hover:underline">About Us</a></li>
+                <li><a href="#" class="hover:underline">Contact</a></li>
+                <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
-
 </html>
