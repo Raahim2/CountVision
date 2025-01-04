@@ -1,7 +1,7 @@
 from flask import Flask ,render_template , request , redirect
 import os
 import json
-import cv2
+# import cv2
 # from deepface import DeepFace
 
 def mark_faces(photo_path):
