@@ -101,7 +101,7 @@ const displayWidth = ref(0);
 const displayHeight = ref(0);
 const isLoading = ref(false);
 const error = ref(null);
-const apiKey = process.env.VUE_APP_API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
 
 const imgRef = ref(null);
 
